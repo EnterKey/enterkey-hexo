@@ -29,10 +29,10 @@ signature-img: img/signature/BeanTechSign-white.png
 
 
 # SNS settings
-# RSS: false
-github_username:    enterkey
-# twitter_username:   Demonbane_x
+RSS: true
+github_username: enterkey
 facebook_username: dooseong.eom
+# twitter_username:   Demonbane_x
 # linkedin_username:
 
 # Build settings
@@ -52,8 +52,8 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Baidu Analytics
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
-ga_domain: yoursite
+ga_track_id: UA-133155904-1          # Format: UA-xxxxxx-xx
+ga_domain: https://enterkey.github.io
 
 
 # Sidebar settings
@@ -77,6 +77,32 @@ show_count: true
 ## Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# nofollow
+nofollow:
+  enable: true
+  exclude:
+    - exclude1.com
+    - exclude2.com
+
+# robotstxt
+robotstxt:
+  useragent: "*"
+  disallow:
+    - /one_file_to_disallow.html
+    - /2nd_file_to_disallow.html
+    - /3rd_file_to_disallow.html
+  allow:
+    - /one_file_to_allow.html
+    - /2nd_file_to_allow.html
+    - /3rd_file_to_allow.html
+
+#feed
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub:
 
 
 ## Friends

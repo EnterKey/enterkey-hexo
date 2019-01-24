@@ -7,5 +7,7 @@ header-img: "img/header_img/Iron-Man-3.jpg"
 comments: true
 ---
 
-> 光有好奇心而不去實踐，等於自願放棄成功機會
-> 別為自己畫地自限，Just Do It！！
+<div style="text-align: center;">
+    <div class="github-card" data-github="enterkey" data-width="400" data-height="321" data-theme="medium"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
